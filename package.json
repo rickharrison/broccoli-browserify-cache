@@ -1,5 +1,5 @@
 {
-  "name": "broccoli-browserify-bundler",
+  "name": "broccoli-browserify-cache",
   "version": "1.0.0",
   "description": "Browserify plugin for Broccoli.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rickharrison/broccoli-browserify-bundler"
+    "url": "git://github.com/rickharrison/broccoli-browserify-cache"
   },
   "keywords": [
     "broccoli",
@@ -18,9 +18,9 @@
   "author": "Rick Harrison",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rickharrison/broccoli-browserify-bundler/issues"
+    "url": "https://github.com/rickharrison/broccoli-browserify-cache/issues"
   },
-  "homepage": "https://github.com/rickharrison/broccoli-browserify-bundler",
+  "homepage": "https://github.com/rickharrison/broccoli-browserify-cache",
   "dependencies": {
     "broccoli-caching-writer": "^0.5.2",
     "browserify": "^6.2.0",
