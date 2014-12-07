@@ -24,3 +24,4 @@ var outputTree = browserify(inputTree, {
   - `entries` - Array of files to be used as the entry for browserify
   - `outputFile` - Relative path of the output file.
   - `browserifyOptions` - Options passed to the browserify constructor
+  - `cache` - Default: `true` - Whether caching is enabled or not. In production, I would recommend setting this to false.
