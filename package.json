@@ -1,6 +1,6 @@
 {
   "name": "broccoli-browserify-cache",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Browserify plugin for Broccoli.",
   "main": "lib/index.js",
   "scripts": {
