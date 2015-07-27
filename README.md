@@ -15,7 +15,10 @@ var browserify = require('broccoli-browserify-cache');
 
 var outputTree = browserify(inputTree, {
   entries: ['./main'],
-  outputFile: 'foo.js'
+  outputFile: 'foo.js',
+  config: function (b) {
+    b.exclude(packageName);
+  }
 });
 ```
 
@@ -25,3 +28,4 @@ var outputTree = browserify(inputTree, {
   - `outputFile` - Relative path of the output file.
   - `browserifyOptions` - Options passed to the browserify constructor
   - `cache` - Default: `true` - Whether caching is enabled or not. In production, I would recommend setting this to false.
+  - `config` - Callback with the first argument being the browserify constructor
